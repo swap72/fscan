@@ -1,4 +1,4 @@
-## Usage
+## CLI Tool Usage
 fscan scan c:\users summary skip1024
 
 # Exclude empty folders
