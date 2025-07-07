@@ -10,6 +10,8 @@ fscan about
 # Help/Switches/flags
 fscan --help
 
+# Info :
+You can compile to native binary or can directly download the app from here register it on the path of you system and start using it 
 
 ## ⚙️ Output formats
 
