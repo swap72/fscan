@@ -1,8 +1,5 @@
-# Basic scan
-fscan scan <PATH> <OUTPUT_FORMAT>
-
-# Example: scan C:\ and show summary, skipping files smaller than 1 GB
-fscan scan C:\ summary skip1024
+## Usage
+fscan scan c:\users summary skip1024
 
 # Exclude empty folders
 fscan scan /home/user/ summary --exclude-empty
@@ -10,7 +7,7 @@ fscan scan /home/user/ summary --exclude-empty
 # Show about and credits
 fscan about
 
-# Usage
+# Help/Switches/flags
 fscan --help
 
 
