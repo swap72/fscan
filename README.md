@@ -31,6 +31,7 @@ fscan --help
 ---
 
 ## 📁 Project Structure
+```
 fscan/
 ├── Cargo.toml           # Project metadata & dependencies
 ├── Cargo.lock           # Locked dependency versions (auto-generated)
@@ -47,7 +48,7 @@ fscan/
 └── .github/
     └── workflows/
         └── rust.yml     # (Optional) CI workflow for testing/building
-
+```
 ---
 
 ## 📝 License
