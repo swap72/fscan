@@ -12,7 +12,13 @@ fscan --help
 
 
 # Info :
-You can compile to native binary or can directly [download the tool from here,](https://github.com/swap72/fscan/raw/refs/heads/main/target/release/fscan.exe) register it on the path of you system and start using it 
+You can compile to native binary or can directly [download the tool from here,](https://github.com/swap72/fscan/raw/refs/heads/main/target/release/fscan.exe) register it on the path of you system and start using it (Windows 10 and up)
+
+# ffscan
+
+[![Crates.io](https://img.shields.io/crates/v/ffscan.svg)](https://crates.io/crates/ffscan)
+[![Downloads](https://img.shields.io/crates/d/ffscan.svg)](https://crates.io/crates/ffscan)
+
 
 ## ⚙️ Output Formats
 
