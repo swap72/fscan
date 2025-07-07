@@ -1,6 +1,6 @@
-D:\work\prac_r\fscan\target\release\deps\fscan.d: src\main.rs
+C:\Users\swapnil\Downloads\fscan\fscan\target\release\deps\fscan.d: src\main.rs
 
-D:\work\prac_r\fscan\target\release\deps\fscan.exe: src\main.rs
+C:\Users\swapnil\Downloads\fscan\fscan\target\release\deps\fscan.exe: src\main.rs
 
 src\main.rs:
 

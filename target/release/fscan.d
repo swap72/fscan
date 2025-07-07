@@ -1,1 +1,1 @@
-D:\work\prac_r\fscan\target\release\fscan.exe: D:\work\prac_r\fscan\src\main.rs
+C:\Users\swapnil\Downloads\fscan\fscan\target\release\fscan.exe: C:\Users\swapnil\Downloads\fscan\fscan\src\main.rs

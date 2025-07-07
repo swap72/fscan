@@ -92,7 +92,7 @@ fn main() {
             println!("📂 fscan");
             println!("Version: {}", env!("CARGO_PKG_VERSION"));
             println!("A fast, parallel directory scanner that reports only large files/folders.");
-            println!("GitHub: https://github.com/yourname/fscan");
+            println!("GitHub: https://github.com/swap72/fscan");
             println!("⭐️ Please star and fork this project to help and support it! ❤️");
             println!("License: MIT");
             println!("Built with Rust 🦀⚙🚀");
