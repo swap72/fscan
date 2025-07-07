@@ -12,7 +12,7 @@ fscan --help
 
 
 # Info :
-You can compile to native binary or can directly [download the tool from here](https://github.com/swap72/fscan/blob/main/target/release/fscan.exe) register it on the path of you system and start using it 
+You can compile to native binary or can directly [download the tool from here](https://github.com/swap72/fscan/raw/refs/heads/main/target/release/fscan.exe) register it on the path of you system and start using it 
 
 ## ⚙️ Output Formats
 
