@@ -14,11 +14,11 @@ fscan --help
 # Info :
 You can compile to native binary or can directly download the app from here register it on the path of you system and start using it 
 
-## ⚙️ Output formats
+## ⚙️ Output Formats
 
-**csv**: Save results to output.csv
-**json**: Save results to output.json
-**summary**: Print a readable summary to the console
+- **csv**: Save results to `output.csv`
+- **json**: Save results to `output.json`
+- **summary**: Print a human-readable summary to the console
 
 ---
 
