@@ -67,6 +67,6 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 ## 💖 Show your support
 🌱 Feel free to modify and distribute this CLI tool  
 ⭐️ Star or fork this repo on GitHub if you find it useful!  
-🔗 [Formal Portfolio](https://swapnil.bio.link/)  
-🔗 [Not so formal Portfolio](https://swap72.github.io/portfolio/)  
+🔗 [Formal Portfolio](https://swap72.github.io/portfolio/)  
+🔗 [Not so formal Portfolio](http://swapnil.bio.link/)  
 🚀 Built with ❤️ and Rust 🦀⚙️
