@@ -1,14 +1,15 @@
-## CLI Tool Usage
+# Scan a directory and print a summary, skipping files smaller than 1024 bytes
 fscan scan c:\users summary skip1024
 
-# Exclude empty folders
+# Exclude empty folders from the scan
 fscan scan /home/user/ summary --exclude-empty
 
-# Show about and credits
+# Display about information and credits
 fscan about
 
-# Help/Switches/flags
+# Show help with available flags and options
 fscan --help
+
 
 # Info :
 You can compile to native binary or can directly download the app from here register it on the path of you system and start using it 
