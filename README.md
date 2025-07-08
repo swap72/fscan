@@ -1,4 +1,4 @@
-# Scan a directory and print a summary, skipping files smaller than 1024 bytes
+# Scan a directory and print a summary, skipping files smaller than 1024 Megabytes
 fscan scan c:\users summary skip1024
 
 # Exclude empty folders from the scan
