@@ -53,12 +53,15 @@ dependencies = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "cfg-if"
 version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9555578bc9e57714c812a1f84e4fc5b4d21fcb063490c624de019f7464c91268"
 
 [[package]]
+=======
+>>>>>>> dffd225de13f55c4299fb0ae2c0c1dd459c04619
 name = "clap"
 version = "4.5.40"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -105,12 +108,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b05b61dc5112cbb17e4b6cd61790d9845d13888356391624cbe7e41efeac1e75"
 
 [[package]]
+<<<<<<< HEAD
 name = "core-foundation-sys"
 version = "0.8.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "773648b94d0e5d620f64f280777445740e61fe701025087ec8b57f45c791888b"
 
 [[package]]
+=======
+>>>>>>> dffd225de13f55c4299fb0ae2c0c1dd459c04619
 name = "crossbeam-deque"
 version = "0.8.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -143,13 +149,20 @@ checksum = "48c757948c5ede0e46177b7add2e67155f70e33c07fea8284df6576da70b3719"
 
 [[package]]
 name = "fscan"
+<<<<<<< HEAD
 version = "0.1.1"
+=======
+version = "0.1.0"
+>>>>>>> dffd225de13f55c4299fb0ae2c0c1dd459c04619
 dependencies = [
  "clap",
  "rayon",
  "serde",
  "serde_json",
+<<<<<<< HEAD
  "sysinfo",
+=======
+>>>>>>> dffd225de13f55c4299fb0ae2c0c1dd459c04619
  "walkdir",
 ]
 
@@ -172,18 +185,22 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4a5f13b858c8d314ee3e8f639011f7ccefe71f97f96e50151fb991f267928e2c"
 
 [[package]]
+<<<<<<< HEAD
 name = "libc"
 version = "0.2.174"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1171693293099992e19cddea4e8b849964e9846f4acee11b3948bcc337be8776"
 
 [[package]]
+=======
+>>>>>>> dffd225de13f55c4299fb0ae2c0c1dd459c04619
 name = "memchr"
 version = "2.7.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "32a282da65faaf38286cf3be983213fcf1d2e2a58700e808f83f4ea9a4804bc0"
 
 [[package]]
+<<<<<<< HEAD
 name = "ntapi"
 version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -199,6 +216,8 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "42f5e15c9953c5e4ccceeb2e7382a716482c34515315f7b03532b8b4e8393d2d"
 
 [[package]]
+=======
+>>>>>>> dffd225de13f55c4299fb0ae2c0c1dd459c04619
 name = "once_cell_polyfill"
 version = "1.70.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -307,6 +326,7 @@ dependencies = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "sysinfo"
 version = "0.30.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -322,6 +342,8 @@ dependencies = [
 ]
 
 [[package]]
+=======
+>>>>>>> dffd225de13f55c4299fb0ae2c0c1dd459c04619
 name = "unicode-ident"
 version = "1.0.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -344,6 +366,7 @@ dependencies = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "winapi"
 version = "0.3.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -360,6 +383,8 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6"
 
 [[package]]
+=======
+>>>>>>> dffd225de13f55c4299fb0ae2c0c1dd459c04619
 name = "winapi-util"
 version = "0.1.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -369,6 +394,7 @@ dependencies = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "winapi-x86_64-pc-windows-gnu"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -394,6 +420,8 @@ dependencies = [
 ]
 
 [[package]]
+=======
+>>>>>>> dffd225de13f55c4299fb0ae2c0c1dd459c04619
 name = "windows-sys"
 version = "0.59.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"

@@ -7,13 +7,20 @@ use std::io::Write;
 use std::path::PathBuf;
 use std::sync::{Arc, Mutex};
 use walkdir::WalkDir;
+<<<<<<< HEAD
 use sysinfo::{System, Process};
+=======
+>>>>>>> dffd225de13f55c4299fb0ae2c0c1dd459c04619
 
 #[derive(Parser, Debug)]
 #[command(
     name = "fscan",
     version,
+<<<<<<< HEAD
     about = "Fast directory & process scanner: report large files/folders or top memory processes."
+=======
+    about = "Fast directory scanner: report files/folders larger than a minimum size."
+>>>>>>> dffd225de13f55c4299fb0ae2c0c1dd459c04619
 )]
 struct Cli {
     #[command(subcommand)]
@@ -22,14 +29,21 @@ struct Cli {
 
 #[derive(Subcommand, Debug)]
 enum Commands {
+<<<<<<< HEAD
     /// about and credits
+=======
+    /// Show about and credits
+>>>>>>> dffd225de13f55c4299fb0ae2c0c1dd459c04619
     About,
 
     /// Scan a directory
     Scan(ScanArgs),
+<<<<<<< HEAD
 
     /// Scan running processes sorted by memory usage
     P, // 👈 now just `p`
+=======
+>>>>>>> dffd225de13f55c4299fb0ae2c0c1dd459c04619
 }
 
 #[derive(Parser, Debug)]
@@ -75,6 +89,7 @@ struct FileEntry {
     kind: String,
 }
 
+<<<<<<< HEAD
 #[derive(Serialize)]
 struct ProcessEntry {
     pid: i32,
@@ -82,6 +97,8 @@ struct ProcessEntry {
     memory_mb: f64,
 }
 
+=======
+>>>>>>> dffd225de13f55c4299fb0ae2c0c1dd459c04619
 fn format_size(size: u64) -> String {
     let units = ["B", "KB", "MB", "GB", "TB"];
     let mut size = size as f64;
@@ -103,7 +120,10 @@ fn main() {
             println!("📂 fscan");
             println!("Version: {}", env!("CARGO_PKG_VERSION"));
             println!("A fast, parallel directory scanner that reports only large files/folders.");
+<<<<<<< HEAD
             println!("Also scans running processes by memory usage.");
+=======
+>>>>>>> dffd225de13f55c4299fb0ae2c0c1dd459c04619
             println!("GitHub: https://github.com/swap72/fscan");
             println!("⭐️ Please star and fork this project to help and support it! ❤️");
             println!("License: MIT");
@@ -114,10 +134,13 @@ fn main() {
         Commands::Scan(args) => {
             run_scan(args);
         }
+<<<<<<< HEAD
 
         Commands::P => {
             scan_processes();
         }
+=======
+>>>>>>> dffd225de13f55c4299fb0ae2c0c1dd459c04619
     }
 }
 
@@ -153,7 +176,11 @@ fn run_scan(cli: &ScanArgs) {
 
             if let Some(limit) = min_size {
                 if size <= limit {
+<<<<<<< HEAD
                     return;
+=======
+                    return; // Skip small files
+>>>>>>> dffd225de13f55c4299fb0ae2c0c1dd459c04619
                 }
             }
 
@@ -262,6 +289,7 @@ fn run_scan(cli: &ScanArgs) {
         }
     }
 }
+<<<<<<< HEAD
 
 fn scan_processes() {
     let mut sys = System::new_all();
@@ -296,3 +324,5 @@ fn scan_processes() {
         total_memory
     );
 }
+=======
+>>>>>>> dffd225de13f55c4299fb0ae2c0c1dd459c04619
